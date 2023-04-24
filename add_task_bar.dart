@@ -875,7 +875,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
                     child: Text('Gallery')),
                 CupertinoActionSheetAction(
                     onPressed: () {
-                      // _taskController.delete(task!.image);
+                      _taskController.delete(task!.image);
                       resetImage();
                       Get.back();
                     },
